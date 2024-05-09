@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPHONE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+           <a href="#"><img src="img/logo.png" alt="logo do Iphone" class="logo"></a>
+            <ul>
+                <li><a href="#">Mac</a></li>
+                <li><a href="#">Ipad</a></li>
+                <li><a href="#" class="check">Iphone</a></li>
+                <li><a href="#">Watch</a></li>
+                <li><a href="#">AirPods</a></li>
+                <li><a href="#">Só na apple</a></li>
+                <li><a href="#">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="circle"></div>
+            <div class="main-text">
+                <img src="img/iphone13.png" alt="">
+                <h3>Seu novo superpoder</h3>
+                <p>Chip com velocidade um aumento notavel na duração da bateria e novos recurso de foto e video <br> no iphone 13 você faz coisas que nunca pode. e ele ainda vem em dois tamanhos.</p>
+                <h6>Apartir de R$6.599</h6>
+                <a href="https://www.apple.com/br/iphone/?afid=p238%7Cs4CasUwGV-dc_mtid_209258i342853_pcrid_692723484928_pgrid_154272763420_pexid__&
+                cid=wwa-br-kwgo-iphone-slid--Brand-iPhone-Evergreen-" class="btn">Comprar</a>
+                <div class="text">
+                 <h5>Escolha sua cor favorita</h5>
+                </div>
+                <div class="content">
+                    <span id="green" onclick="imgslider ('img/green.png'); circlechange ('#445c42')"></span>
+                    <span id="pink" onclick="imgslider ('img/pink.png'); circlechange ('#ffc9cf')"></span>
+                    <span id="blue" onclick="imgslider ('img/blue.png'); circlechange ('blue')"></span>
+                    <span id="black" onclick="imgslider ('img/black.png'); circlechange ('black')"></span>
+                    <span id="red" onclick="imgslider ('img/red.png'); circlechange ('red')"></span>
+                    <span id="white" onclick="imgslider ('img/white.png'); circlechange ('white')"></span>
+                </div>
+            </div> 
+            <div class="main-img">
+                <img src="img/green.png" alt="imagem do iphone" id="iphone">
+            </div>
+        </section>
+    </main> 
+    <script type="text/javascript">
+        /* função de mudar o celular */
+        function imgslider (e) {
+            const circle = document.querySelector ('#iphone').src = e;
+        }
+        /* função de mudar a cor circulo */
+        function circlechange (color){
+            const circle = document.querySelector ('.circle');
+            circle.style.background = color
+        } 
+
+    </script>
+</body>
+</html>
