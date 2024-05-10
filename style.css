@@ -33,6 +33,7 @@ header {
     font-weight: 600;
     padding-bottom: 4px;
     transition: all 0,5s ease-in-out ;
+
 }
 .navigation ul li a:hover {
     border-bottom: 1px solid white;
@@ -44,7 +45,8 @@ main section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5rem 10rem;
+    padding: 20px;
+    
 }
 .main-text img {
     width: 15rem;
@@ -119,6 +121,14 @@ main section {
     z-index: 100;
 }
 .main-img img {
-    width: 500px;
+    width: 320px;
     transform: rotate( -10deg);
+}
+
+@media screen and (max-width: 767px){
+
+    main section {
+        max-width: 30%;
+    }
+
 }
