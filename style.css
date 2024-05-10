@@ -12,7 +12,7 @@ body{
     background: #e8e6e7;
 }
 header {
-    padding: 20px 70px;
+    padding: 20px ;
     background: #1d1d1f;
 }
 .navigation {
@@ -122,4 +122,3 @@ main section {
     width: 500px;
     transform: rotate( -10deg);
 }
- 
