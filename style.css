@@ -12,9 +12,38 @@ body{
     background: #e8e6e7;
 }
 header {
+    flex-direction: end;
+    justify-content: space-between;
     padding: 10px ;
-    background: #1d1d1f;
+    background: rgb(54, 53, 53);
    
+}
+
+i#burguer{
+    
+    text-align: end;
+    color: white;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#burguer:hover {
+    color: white;
+
+}
+menu {
+    display: none;
+}
+menu > ul > li > a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgba(87, 87, 87);
+    color: white;
+    border-top: 2px solid gray;
 }
 .navigation {
     display: flex;
@@ -22,6 +51,7 @@ header {
     justify-content: space-between;
 }
 .navigation .logo {
+    
     width: 40px;
 }
 .navigation ul {
