@@ -147,13 +147,14 @@ main section  {
     background: red;
 }
 .main-img {
-    transition: all 2s ease;
+    transition: all 10s ease;
     z-index: 100;
 }
 
 .main-img img {
    width: 370px;
-   transform: rotate( 34deg);
+   transform: rotate( 0deg);
+
 }
 
   /* typical devece break points 
