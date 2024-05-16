@@ -20,7 +20,6 @@ header {
 }
 
 i#burguer{
-    
     text-align: end;
     color: white;
     display: block;
@@ -157,4 +156,45 @@ main section  {
    transform: rotate( 0deg);
 }
 
- 
+  /* typical devece break points 
+    ------------------------------
+    Pequenas telas: até 600px
+    Celular: de 600px até 768px
+    Tablet: 768px até 992px 
+    Destop: 992px até 1200px 
+    Grandes: telas cima de 1200px
+    */
+
+
+@media screen and (max-width: 768px){
+
+  header {
+    font-size: 10px;
+  }
+  .burguer {
+    display: none;
+  }
+  header .navigation ul li a {
+    font-size: 14px;
+  }
+  main > section {
+    padding: 10px;
+  }
+  .main-text h3 {
+    width: 150px;
+  }
+  .main-text p {
+    width: 200px;
+  }
+  .main-text img {
+    width: 200px;
+    margin-bottom: 3vh;
+  }
+  .main-img {
+    max-width: 270px;
+  }
+  .main-text .content span{
+    padding: 10px;
+    width: 35px;
+  }
+}
