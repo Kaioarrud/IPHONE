@@ -194,7 +194,8 @@ main section  {
     width: 170px;
   }
   .main-img img {
-    width: 230px;
+    height: 300px;
+    width: 140px;
   }
   .main-text .content span{ 
     width: 35px;
