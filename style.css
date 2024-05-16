@@ -12,16 +12,14 @@ body{
     background: #e8e6e7;
 }
 header {
-    flex-direction: end;
-    justify-content: space-between;
+    
     padding: 10px ;
     background: rgb(54, 53, 53);
    
 }
 
 i#burguer{
-    text-align: end;
-    color: white;
+    color: black;
     display: block;
     padding: 10px;
     cursor: pointer;
@@ -31,18 +29,8 @@ i#burguer:hover {
     color: white;
 
 }
-menu {
-    display: none;
-}
-menu > ul > li > a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.itens {
     display: block;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    background-color: rgba(87, 87, 87);
-    color: white;
-    border-top: 2px solid gray;
 }
 .navigation {
     display: flex;
@@ -50,8 +38,8 @@ menu > ul > li > a {
     justify-content: space-between;
 }
 .navigation .logo {
-    
-    width: 40px;
+    text-align: center;
+    width: 50px;
 }
 .navigation ul {
     display: flex;
@@ -68,7 +56,6 @@ menu > ul > li > a {
 .navigation ul li a:hover {
     border-bottom: 1px solid white;
 }
-
 /* main */
 
 main section  {
@@ -76,7 +63,6 @@ main section  {
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    
 }
 .main-text img {
     width: 250px;
@@ -169,12 +155,7 @@ main section  {
 
 @media screen and (max-width: 600px) {
 
-  header {
-    height: 100px;
-  }
-  .burguer {
-    display: none;
-  }
+  
   header .navigation ul li a {
     font-size: 14px;
   }
@@ -200,6 +181,6 @@ main section  {
   }
   .main-text .content span{ 
     width: 35px;
-    height: 35px;
+    height: 30px;
   }
 }
