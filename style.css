@@ -153,7 +153,7 @@ main section  {
 
 .main-img img {
    width: 370px;
-   transform: rotate( 0deg);
+   transform: rotate( 34deg);
 }
 
   /* typical devece break points 
@@ -166,7 +166,7 @@ main section  {
     */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 
   header {
     height: 100px;
