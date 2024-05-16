@@ -152,7 +152,7 @@ main section  {
 }
 
 .main-img img {
-   width: 320px;
+   width: 370px;
    transform: rotate( 0deg);
 }
 
@@ -166,10 +166,10 @@ main section  {
     */
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 
   header {
-    font-size: 10px;
+    height: 100px;
   }
   .burguer {
     display: none;
@@ -184,17 +184,20 @@ main section  {
     width: 150px;
   }
   .main-text p {
-    width: 200px;
+    width: 160px;
   }
   .main-text img {
-    width: 200px;
+    width: 175px;
     margin-bottom: 3vh;
   }
-  .main-img {
-    max-width: 270px;
+  .main-text h5 {
+    width: 170px;
   }
-  .main-text .content span{
-    padding: 10px;
+  .main-img img {
+    width: 230px;
+  }
+  .main-text .content span{ 
     width: 35px;
+    height: 35px;
   }
 }
